@@ -1,5 +1,3 @@
-# Facial-Keypoint-Detection
-A Facial Keypoint Detection algorthim using computer vision techniques and deep learning architectures, to detect facial keypoints, which can be used for facial tracking, facial pose recognition, facial filters, and emotion recognition.
 [image1]: ./images/obamas.jpg "Obamas"
 [image2]: ./images/obamas_result.png "Obamas_result"
 [image3]: ./images/obamas_detected.png "Obamas Detect image"
@@ -25,7 +23,7 @@ The goal of this project is to use computer vision techniques and deep learning 
  train.py contains the source code for training and saving the network
 
 ## Model
-You can download a pre-trained [model](https://www.dropbox.com/sh/n8pz3784pk9pbto/AAD_Uy0DPoqOgUbYqvop9rpDa?dl=0&preview=keypoints_model_1.pt) and place it in the `saved_models` folder, or train your own network. The pre-trained model is a Convolutional Neural Network (CNN) based off the [ NaimishNet](https://arxiv.org/pdf/1710.00977.pdf) architecture, with a minor adjustment of adding 2D batch normalizations after each convolutional operations, and 1D batch normalizations after each fully connected layer. The pre-trained model is trained with the hyper-parameters set in the train.py file.
+You can use the pre-trained model placed in `saved_models`, or train your own network. The pre-trained model is a Convolutional Neural Network (CNN) based off the [ NaimishNet](https://arxiv.org/pdf/1710.00977.pdf) architecture, with a minor adjustment of adding 2D batch normalizations after each convolutional operations, and 1D batch normalizations after each fully connected layer. The pre-trained model is trained with the hyper-parameters set in the train.py file.
  ### Dependencies
 - [OpenCV](http://opencv.org/)
 - [NumPy](http://www.numpy.org/)
